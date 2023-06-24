@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    font-family:cursive;
+}
+.bg {
+    background-image: url('https://e0.pxfuel.com/wallpapers/101/170/desktop-wallpaper-blur.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #dc4a4a;
+}
+.h1{text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:cornsilk;
+    font-size: 55px;
+}
+.col{
+    color: red;
+}
+.falign{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label{
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
