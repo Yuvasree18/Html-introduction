@@ -1,129 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World</title>
-    <style>
-        body{
-            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRMcrTESlOqPJaBMoGWf8SOw6beR1We1ASxtE_BWiIg&usqp=CAU&ec=48665698");
-            background-size: cover;
-        }
-        li {
-  border: 2px solid powderblue;
-  padding: 30px;
-}
-         
-    td{
-  border: 2px solid rgb(24, 24, 24);
-}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//use.fontawesome.com/release/v5.0.7/css/all.css">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class ="bg">
+        <h1 class="h1"><ins><b>Registration form</ins></b></h1>
+        <form>
+            <label>Student Image:<span class="col">*</span></label>
+            <input type="image" src="submit.gif" alt="upload image"  width="48" height="48">
+            <br>
+            <br>
+            <label>Name: <span class="col">*</span></label>
+            <input type="text" placeholder="Enter your name" class="falign" required/>
+            <br>
+            <br>
+            <label>Father's Name: <span class="col">*</span></label>
+            <input type="text" placeholder="father's name" class="falign" required/>
+            <br>
+            <br>
+            <label>Mother's Name: <span class="col">*</span></label>
+            <input type="text" placeholder="mother's name" class="falign" required/>
+            <br>
+            <br>
+            <label>DOB: <span class="col">*</span></label>
+            <input type="date" placeholder="dd/mm/yyyy" class="falign" required/>
+            <br>
+            <br>
+            <label>Gender: <span class="col">*</span></label>
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <label>Female</label>
+            <input type="checkbox" value="Female"  class="falign" required/>
+            <br>
+            &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>Male</label>
+            <input type="checkbox" value="Male"  class="falign" >
+            <br>
+            &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>Others</label>
+            <input type="checkbox" value="Others"  class="falign" >
+            <br>
+            <label>Email Id:<span class="col">*</span></label>
+            <input type="email" placeholder="xyz..@gmail.com"  class="falign">
+            <br>
+            <br>
+            <label>Phone no:<span class="col">*</span></label>
+            <input type="number" placeholder="Enter 10 digit number" class="falign">
+            <br>
+            <br>
+            <label>Department:<span class="col">*</span></label>
+            <select>
+                <option value="CS">CS</option>
+                <option value="CHEMISTRY">CHEMISTRY</option>
+                <option value="PHYSICS">PHYSICS</option>
+                <option value="MATHS">MATHS</option>
+                <option value="PLANT BIOLOGY">PLANT BIOLOGY</option>
+                <option value="BCA"> BCA </option>
+            </select>
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
 
-    </style>
-  </head>
-  <link rel="stylesheet" href="styles.css">
-  <body>
-    <h1 class="topic"><ins> WEB PAGES</ins></h1>
-    <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/12/Design-Web-Page-in-HTML.jpg" alt="img."/>
-    <h2><u>Things to learn:</u></h2>
-    <list><ol>
-      <li>Choose the purpose of your website</li>
-      <li style=color:darkmagenta;font-size:x-large;></style>how you want to build your website</li>
-      <li>Code your website</li>
-      <li>Pick your visuals</li>
-      <li>Add website content and pages</li>
-      <li>Optimise your website.</li>
-    </ol></list>
-    <h2>What is web designing?</h2>
-    <p style="color:rgb(121, 132, 32);font-family:fantasy;">It is the multi-faceted <process of developing and maintaining websites.<b> Web designing</b> combines many 
- skills and disciplines in creating and <span style="color: rgb(61, 15, 125);">websites.</span>  It involves designing different aspects of a website,
-such asweb pages, user interface, graphics, and content, using web programming languages. The language and design you use
-will decide how your website communicates with its own elements and appears to users at the front and back ends.</p>
-<h2>Programming languages for web development</h2>
-<img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/web-programming-languages-1.jpg" alt="img."/>
-<p style="color: brown;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><i>Web development involves language types like markup, programming, and scripting. Markup languages are very different from programming or scripting languages. Markup languages, e.g., HyperText Markup Language (HTML), tell browsers how to structure and display a website. Then, describe how to display something written in HTML using Languages like Cascading Style Sheets.
-Programming languages are codes that provide computers with commands or logic to perform specific tasks. Scripting languages are a sub-category that basically provide instructions for tasks written in a web programming language. Deciding on the right web design languages to create your business’s website can get confusing. It is important to understand the specific use cases of different languages. But if you are just starting out,
-     here are the most popular web development languages you should know about:</i></p>
-    
-    <h2>HTML</h2>
-    <p><i>HTML works on all browsers. It defines what you will see on your screen when you go to a hyperlink. While HTML is important for defining a web page (layout and its components), you cannot use it to create dynamic functions the way programming languages can.
-         !DOCTYPE : It defines the document type or it instruct the browser about the version of HTML.</i></p>
-         <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/11/Features-of-HTML.png" alt="img." /><em>features to be noted</em>
-         <h3><ins>The three main parts of an element are: </ins></h3>
-         <list><ul>
-            <li><b>Opening tag :</b> used to state where an element starts to take effect. The tag is wrapped with opening and closing angle brackets. For example, use the start tag p to create a paragraph. </li>
-            <li><b>Content : </b>this is the output that other users see.</li>
-            <li><b>Closing tag :</b>the same as the opening tag, but with a forward slash before the element name. For example, /p to end a paragraph. </li>
-         </ul></list>
-         <p>To know more about html click--<a href="https://en.wikipedia.org/wiki/HTML">html</a></p>
-    <h2>CSS</h2>
-    <p><i>CSS or <b> “Cascading Style Sheets” </b> works with HTML to create the format for web pages. 
-      It works on top of the foundation of a page that was created with HTML. It also helps adapt pages to different formats optimized for desktops or mobile devices. The latest standard is CSS3, meaning they are in their third generation.
-      CSS is what gives websites their polished and professional look. It also allows for the addition of interactive elements like background color, headers, shapes, graphics, and more that make websites and web applications much more engaging to the viewer.</i></p>
-        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="image.css"/><em>simple code of css</em>
-        <p><i>Images are an important part of any web application. Including a lot of images in a web application is generally not recommended, but it is important to use the images wherever they required. CSS helps us to control the display of images in web applications.
-             The styling of an image in CSS is similar to the styling of an element by using the borders and margins. There are multiple CSS properties such as border property, height property, width property, etc. that helps us to style an image. Learn Deep--<a href="https://en.wikipedia.org/wiki/CSS"><b><i>CSS</i></b></a></i></p>
-             <h2>JavaScript</h2>
-             <p><i>avaScript, which is often abbreviated to JS, is another front-end programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries like JQuery.
-               Whereas HTML & CSS are used to control presentation, formatting, and layout, JavaScript is used to control the behavior of different web elements. 
-              It is important to learn HTML and CSS before learning JavaScript, since HTML and CSS are the core technologies for building web pages and applications. HTML defines the structure of your content, CSS determines the style and layout, and JavaScript makes the content interactive; therefore, it makes the most sense to learn them in that order.</i></p>
-              <img src="https://www.edureka.co/blog/wp-content/uploads/2018/09/bl.png" alt="js.img"/>
-              <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><i>JavaScript incorporates valuable skills such as object-oriented, functional, and imperative styles of programming.
-                 Beginner developers, in turn, can apply these skills to any new language they want to learn, like Python and C# Understanding how to program in JavaScript is essential to landing any web development job. JavaScript is more complex than both HTML and CSS. However, that doesn’t mean it’s beyond anyone’s grasp. Both professionals and amateur developers both use JavaScript code to make professional-looking websites.</i></p>
-      <table>
-        <thead><b><i><ins>Difference between HTML and CSS</ins></i></b>
-        <tr>
-          <td><b>S.NO.</b></td>
-          <td><b> &nbsp;  &nbsp; HTML</b></td>
-          <td> <b> &nbsp;  &nbsp; CSS</b></td>
-        </tr></thead>
-        <br>
-        <tr>
-          <td>1.</td>
-          <td>HTML is a markup language used to define a structure of a web page.</td>
-          <td>CSS is a style sheet language used to style the web pages by using different styling features.</td>
-        </tr>
-        <br>
-        <tr>
-          <td>2.</td>
-          <td>It consists of tags inside which text is enclosed.</td>
-          <td>It consists of selectors and declaration blocks.</td>
-        </tr>
-        <tr>
-          <td>3.</td>
-          <td>HTML doesn’t have further types.</td>
-          <td>CSS can be internal or external depending upon the requirement.</td>
-        </tr>
-        <tr>
-          <td>4.</td>
-          <td>We cannot use HTML inside a CSS sheet.</td>
-          <td>	We can use CSS inside an HTML document.</td>
-        </tr>
-        <tr>
-          <td>5.</td>
-          <td>HTML is not used for presentation and visualization.</td>
-          <td>	CSS is used for presentation and visualization.</td>
-        </tr>
-        <tr>
-          <td>6.</td>
-          <td>HTML has comparatively less backup and support.</td>
-          <td>CSS has comparatively higher backup and support.</td>
-        </tr>
-        <tr>
-          <td>7.</td>
-          <td>HTML doesn’t allow animations and transitions.</td>
-          <td>CSS allows animation and transitions which helps to improve the UI.</td>
-        </tr>
-        <tr>
-          <td>8.</td>
-          <td>HTML files are saved with .htm or .html extension.</td>
-          <td>CSS files are saved with .css extension.</td>
-        </tr>
-      </table>
-      <p><b><ins>Refrence books to learn web page Development:</ins></b></p>
-      <a href="https://www.htmlandcssbook.com/">https://www.htmlandcssbook.com/</a> <br>
-      <a href="https://www.wiley.com/en-br/HTML+and+CSS:+Design+and+Build+Websites-p-9781118008188">https://www.wiley.com/en-br/HTML+and+CSS:</a><br>
-      <a href="https://www.oreilly.com/library/view/html-css/9781118206911/">https://www.oreilly.com/library/view/html-css/9781118206911/</a><br>
-      <a href="https://books.google.co.in/books?id=aGjaBTbT0o0C&printsec=frontcover&redir_esc=y#v=onepage&q&f=false">https://books.google.co.in/books?id=aGjaBTbT0o0C&printsec=frontcover&redir_esc=y#v=onepage&q&f=false</a><br>
-      <a href="https://www.booksfree.org/html-css-design-and-build-websites-by-jon-duckett-pdf-free-download/">https://www.booksfree.org/html-css-design-and-build-websites-by-jon-duckett-pdf-free-download/</a><br>
-      <a href="https://www.packtpub.com/product/html-css-design-and-build-websites/9781118008188">https://www.packtpub.com/product/html-css-design-and-build-websites/9781118008188</a><br>
-      
-  </body> 
+    </body>
 </html>
