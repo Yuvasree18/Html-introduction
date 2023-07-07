@@ -1,28 +1,50 @@
 *{
-    text-align: center;
-    font-family:cursive;
+    padding: 0%;
+    margin: 0%;
 }
-.bg {
-    background-image: url('https://e0.pxfuel.com/wallpapers/101/170/desktop-wallpaper-blur.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.bg{
+    background-image: url("https://i.pinimg.com/originals/1d/70/cf/1d70cfd8fb6f3ed7d98334f099e53b36.jpg");
     background-size: cover;
-    color: #dc4a4a;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 750px;   
 }
-.h1{text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:cornsilk;
-    font-size: 55px;
+.bg1{
+    background-image: url("https://images.unsplash.com/photo-1625225230517-7426c1be750c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvcm18ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 750px; 
 }
-.col{
-    color: red;
+.immg{
+   float: right;
 }
-.falign{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.bac{
+    float: right;
+
 }
-label{
-    font-size: 30px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+.card-body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("https://thumbs.dreamstime.com/b/construction-material-beige-plywood-background-construction-material-beige-plywood-texture-abstract-art-background-solid-color-ldf-151081079.jpg");
+ }
+ .container-fluid{
+    background-image: url("https://wallpapers.com/images/hd/beige-color-background-byev3i918mhvptur.jpg");
+ }
+
+ h2+p:hover{
+    background-color: black;
+    display: block;
+ }
+
+ .card-body{
+    flex-flow: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+ }
+ .card-header{
+    background-color: burlywood;
+ }
+ p:hover{
+    color: rgb(69, 13, 202);
+ }
