@@ -1,0 +1,87 @@
+body{
+    background-color: beige;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQa_MXHWESintOVg6Pdx0g3zLb_M9FZPGkLg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.para{
+    color: darkred;
+}
+a[target="_blank"] {
+    background-color: rgb(48, 133, 212);
+  }
+  *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .heading2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine; 
+  }
+  a:hover{
+    background-color: blue;
+  }
+  h2::first-line{
+    background-color: aqua;
+    color: brown;
+  }
+  a:visited{
+    color: rgb(210, 134, 12);
+  }
+  a:active{
+    background-color: aqua;
+  }
+  h1,h2{
+    background-color: blueviolet;
+  }
+  #main{
+  
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+  
+}
+
+#main div {
+    flex: auto; 
+    
+  }
+  .red{
+    background-color: rgb(201, 116, 116);
+}
+
+.blue{
+    background-color: rgb(131, 131, 231);
+}
+.green{
+    background-color: rgb(101, 195, 101);
+}
+@media(max-width: 800px){
+    body{
+     color: rgb(207, 19, 82);
+    }
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;}
