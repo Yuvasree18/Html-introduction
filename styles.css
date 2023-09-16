@@ -1,66 +1,33 @@
-body{
-    border: 5px solid black;
-}
-.container,.header{
-    background-color: black;
-}
-.first-content,.first-content1{
-    text-align: center;
-    
 
-}
-.vl {
-    
-    border-left: 2px solid rgb(10, 2, 29);
-    height: 100px;
-  }
-img {
-    border: 2px solid black; 
-  }
-  .container2 {
-    position: relative;
-    text-align: left;
-    color: rgb(14, 7, 7);
-  }
-  
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
 
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #9abdc8;
-  }
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .container2:hover .overlay {
-    opacity: 1;
-  }
-  body,.card-body,.card-header,.header,.full{
-    background-image: url("https://t4.ftcdn.net/jpg/03/69/98/97/360_F_369989745_B3Xusedi5lEBBj5z5gGBLdpSmbxPcHoe.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body {
+    background-image: url("https://img.freepik.com/free-photo/excited-girl-scream-joy-making-fist-pump-holding-shopping-bag-rejoicing-standing-dress-ove_1258-120529.jpg");
     background-size: cover;
- 
-    }
- 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width:500px;
+    top:20px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.button {
+    background-color: #f10d0d; 
+    color: rgb(245, 238, 238);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
